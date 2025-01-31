@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registerform.css">
+</head>
+<body style="background-color:#ACDDDE;">
+<div class="navre">
+  <div class="register">
+    <div class="navregistername">
+      <span class="registername";  style="font-weight: 700; font-size: large;">REGISTRATION FORM</span>
+    </div>
+    <form>
+    <div class="navuser">
+        <div class="username">
+            <label for="e1" style="padding-right:0.5rem;">USERNAME</label>
+            <input type="text" name="username" id=e1 pattern="[A-Za-z@_$0-9]+">
+        </div>
+    </div>
+    <div class="navemail">
+        <label for="e2" style="padding-right: 2rem;">E-MAIL</label>
+        <input type="text" name="email" id="e2" pattern="[A-Za-z0-9@$%]+@gmail\.com"  style="width: 10rem;">
+    </div>
+    <div class="navphone">
+        <div class="phone">
+            <label for="e3">PHONE NO</label>
+            <input type="text" name="phone" id="e3"  style="padding-left: 0.5rem;">
+        </div>
+    </div>
+    <div class="navpassword">
+        <div class="password">
+            <label for="e4">PASSWORD </label>
+            <input type="password" name="password" id="e4" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[@$%])(?=.*[0-9])[A-Za-z@$%0-9]{5,}">
+        </div>
+    </div>
+    <div class="navrepassword">
+        <div class="repassword">
+            <label for="e5">RE-ENTER</label>
+            <input type="password" name="password2" id="e5"  pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[@$%])(?=.*[0-9])[A-Za-z@$%0-9]{5,}">
+        </div>
+    </div>
+    <div class="navsubmit">
+    <button>submit</button>
+    </div>
+</form>
+  </div>
+</div>
+</body>
+</html>
+
